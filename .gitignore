@@ -1,0 +1,69 @@
+# Build directories
+build/
+cmake_build/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Output images (keep only samples)
+PracticaRayTracing/RaytracingCPU/output/*.ppm
+PracticaRayTracing/RaytracingCPU/output/*.png
+PracticaRayTracing/RaytracingCPU/output/*.jpg
+PracticaRayTracing/RaytracingGPU/output/*.ppm
+PracticaRayTracing/RaytracingGPU/output/*.png
+PracticaRayTracing/RaytracingGPU/output/*.jpg
+
+# Keep docs images
+!docs/*.png
+!docs/*.jpg
+!docs/*.pdf
+
+# CUDA
+*.cubin
+*.ptx
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
